@@ -1,17 +1,20 @@
-<template>
+﻿<template>
     <div class="title">
         <h1>Você dá aula de</h1>
-        <h1 style="margin-left: 9px; color: #ec1464">{{ subject }}</h1>
+        <h1 v-if="isSelected" style="margin-left: 9px; color: #ec1464">{{ subject }}</h1>
+	<h1 v-else style="margin-left: 9px; color: #ec1464">_________</h1>
     </div>
     
     <div class="wrapper-subjects">
-        <CheckboxComponent />
-        <CheckboxComponent />
-        <CheckboxComponent />
-        <CheckboxComponent />
-        <CheckboxComponent />
-        <CheckboxComponent />
-        <CheckboxComponent />
+        <CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
+	<CheckboxComponent @click="!isSelected"/>
     </div>
 </template>
 
@@ -21,6 +24,7 @@ import CheckboxComponent from '../Schedule/CheckboxComponent.vue'
 export default {
     data: () => ({
         subject: "Matemática"
+	isSelected: false
     }),
     components:{
         CheckboxComponent,

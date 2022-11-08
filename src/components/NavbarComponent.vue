@@ -44,14 +44,14 @@ export default {
 		  align-items: center;
 		  justify-content: flex-end;
 		  width: 25%;
-		  margin-right: 20px;
+		  margin-right: 10px;
     }
     .user {
 		  margin-left: 10px;
 		  font-size: 20px;
 		  font-weight: 500;
 		  padding: 0 5px;
-      margin-top: 5px;
+    margin-top: 5px;
     }
     .logo{
       padding: 15px;
