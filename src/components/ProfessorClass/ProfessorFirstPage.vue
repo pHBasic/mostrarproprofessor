@@ -13,14 +13,6 @@
         <CheckboxComponent @click="isSelected = !isSelected"/>
         <CheckboxComponent @click="isSelected = !isSelected"/>
         <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
-        <CheckboxComponent @click="isSelected = !isSelected"/>
     </div>
 </template>
 
