@@ -23,8 +23,8 @@ import CheckboxComponent from '../Schedule/CheckboxComponent.vue'
 
 export default {
     data: () => ({
-        subject: "Matemática"
-	isSelected: false
+        subject: "Matemática",
+	isSelected: false,
     }),
     components:{
         CheckboxComponent,
