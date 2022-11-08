@@ -6,15 +6,21 @@
     </div>
     
     <div class="wrapper-subjects">
-        <CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
-	<CheckboxComponent @click="!isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
+        <CheckboxComponent @click="isSelected = !isSelected"/>
     </div>
 </template>
 

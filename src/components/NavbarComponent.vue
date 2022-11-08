@@ -7,7 +7,7 @@
       <img src="../assets/educationbranco1.png" class="logo" width="100">
     <div class="perfil-wrapper">
       <RouterLink class="user" to="/agendar/professor">Dar Aulas</RouterLink>
-      <RouterLink class="routes" to="/agendar/estudante">Cadastrar</RouterLink>
+      <RouterLink class="user" to="/agendar/estudante">Cadastrar</RouterLink>
     </div>
    </nav>
 </template>
