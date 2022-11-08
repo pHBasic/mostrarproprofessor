@@ -1,13 +1,13 @@
-<template>
+﻿<template>
    <nav class="nav">
     <div class="wrapper-routes">
       <RouterLink class="routes" to="/">Início</RouterLink>
       <RouterLink class="routes" to="/about">Sobre</RouterLink>
-      <RouterLink class="routes" to="/agendar">Agendar</RouterLink>
     </div>
       <img src="../assets/educationbranco1.png" class="logo" width="100">
     <div class="perfil-wrapper">
-      <RouterLink class="user" to="/perfil">Pedro</RouterLink>
+      <RouterLink class="user" to="/agendar/professor">Dar Aulas</RouterLink>
+      <RouterLink class="routes" to="/agendar/estudante">Cadastrar</RouterLink>
     </div>
    </nav>
 </template>
@@ -47,6 +47,7 @@ export default {
 		  margin-right: 20px;
     }
     .user {
+		  margin-left: 10px;
 		  font-size: 20px;
 		  font-weight: 500;
 		  padding: 0 5px;
